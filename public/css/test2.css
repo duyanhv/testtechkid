@@ -1,0 +1,10 @@
+#main{
+    border: 1px solid #000;
+    text-align: center;
+}
+
+#pascalTriangle{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}

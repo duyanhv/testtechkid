@@ -1,0 +1,11 @@
+<input type="text" name="searchUser">
+<input type="submit" id="btnSearch">
+
+{{#each getAllRes}}
+<div id="main">
+    <p>{{username}}</p>
+    <p>{{email}}</p>
+    <p>{{fullname}}</p>
+</div>
+{{/each}}
+<div id="paging"></div>
